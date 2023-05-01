@@ -151,6 +151,7 @@ CPP_OPTIONS_ALWAYS_TWO_WORDS = {
   '-Xassembler':    lambda ps, arg: None,
   '-Xlinker':       lambda ps, arg: None,
   '-Xclang':        lambda ps, arg: None,
+  '-index-store-path':  lambda ps, arg: None,
 }
 
 # For efficiency, it's helpful to be able to combine the two above
