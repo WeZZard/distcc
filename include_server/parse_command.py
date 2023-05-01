@@ -101,6 +101,7 @@ CPP_OPTIONS_MAYBE_TWO_WORDS = {
   '-MQ':            lambda ps, arg: None,
   '-arch':          lambda ps, arg: None,
   '-target':        lambda ps, arg: None,
+  '-darwin-target-variant': lambda ps, arg: None,
   '-include':       lambda ps, arg: ps.include_files.append(arg),
   '-imacros':       lambda ps, arg: ps.include_files.append(arg),
   '-idirafter':     lambda ps, arg: ps.after_system_dirs.append(arg),
